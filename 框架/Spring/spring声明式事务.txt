@@ -1,0 +1,15 @@
+什么是声明式事务：
+我们只要标记一下，spring自动帮我们开启事务关闭事务
+
+
+
+使用方式：
+tx:advice + aop
+@transaction
+
+事务传播行为
+当调用多个方法，是创建一个新的事务还是使用原来的事务
+默认是：propagetion_required
+
+Spring声明式事务什么时候进行回滚：
+抛出运行期异常（RuntimeException）时会进行回滚，因此要小心不恰当的try-catch语句
