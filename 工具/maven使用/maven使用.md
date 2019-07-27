@@ -13,7 +13,7 @@
 
 # Maven工程目录
 
-![maven工程目录](maven工程目录.png)
+![maven工程目录](image/maven工程目录.png)
 
 - src/main/java  项目源代码
 - src/main/resources 项目资源文件，比如Spring配置文件
@@ -45,11 +45,11 @@
 
    - 步骤1
 
-   ![添加插件](添加插件.png)
+   ![添加插件](image/添加插件.png)
 
    - 步骤2
 
-   ![查找插件](查找插件.png)
+   ![查找插件](image/查找插件.png)
 
    - 步骤三，在pom.xml中添加jdk版本信息
 
@@ -125,7 +125,7 @@ eg:
 
 > **右键点击项目**
 
-![maven-tomcat插件](maven-tomcat插件.png)
+![maven-tomcat插件](image/maven-tomcat插件.png)
 
 > **运行命令**
 

@@ -3,7 +3,7 @@
 1. **单机MySQL**
 2. **Memcached(缓存) + MySQL + 垂直分离**
 
-![Memcached(缓存) + MySQL + 垂直分离](image\Memcached(缓存) + MySQL + 垂直分离.JPG)
+![Memcached(缓存) + MySQL + 垂直分离](image/Memcached(缓存) + MySQL + 垂直分离.JPG)
 
 > 什么是垂直分离？
 >
@@ -632,7 +632,7 @@ timeout 0
    - 订阅者
    - 频道
 
-   ![1559553223882](image\发布订阅模型.png)
+   ![1559553223882](image/发布订阅模型.png)
 
 2. **相关命令**
 

@@ -37,7 +37,7 @@
 
    - Hibernate开发的必须的jar包。  步骤1中required中所有的包
 
-   - 日志记录包![](F:\专注\Hibernate\image\hibernate\log4j.png)
+   - 日志记录包![log4j](image/hibernate/log4j.png)
 
 3. **创建表**
 
@@ -360,7 +360,7 @@ public class Demo1 {
 }	
 ```
 
-![](image\hibernate\Hiberbate持久化类三种状态转换图.gif)
+![Hiberbate持久化类三种状态转换图](image/hibernate/Hiberbate持久化类三种状态转换图.gif)
 
 
 
@@ -372,7 +372,7 @@ public class Demo1 {
 
 - 跟session一样的生命周期
 
-  ![](F:\专注\Hibernate\image\hibernate\hibernate_cache.jpg)----------
+  ![hibernate_cache](image/hibernate/hibernate_cache.jpg)----------
 
 ## 事务
 
