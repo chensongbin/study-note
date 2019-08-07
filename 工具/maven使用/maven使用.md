@@ -129,7 +129,7 @@ eg:
 
 > **运行命令**
 
-![运行命令](运行命令.png)
+![运行命令](image/运行命令.png)
 
 参考：http://my.oschina.net/lilw/blog/168667
 

@@ -1,0 +1,70 @@
+
+
+手写生产者消费者
+
+```
+
+```
+
+
+
+顺序打印ABC
+
+```java
+/**
+ * @Author: chensb
+ * @Date: 2019/8/2 14:54
+ */
+public class CyclePrint {
+
+    private static Semaphore a = new Semaphore(1);
+    private static Semaphore b = new Semaphore(0);
+    private static Semaphore c = new Semaphore(0);
+
+
+    public static void main(String[] args) {
+        new Thread(()->{
+            for(int i=0;i<5;++i){
+                try {
+                    a.acquire();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                System.out.println("A");
+                b.release();
+            }
+        } , "a").start();
+
+        new Thread(()->{
+            for(int i=0;i<5;++i){
+                try {
+                    b.acquire();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                System.out.println("B");
+                c.release();
+            }
+        } , "b").start();
+
+
+        new Thread(()->{
+            for(int i=0;i<5;++i){
+                try {
+                    c.acquire();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                System.out.println("C");
+                a.release();
+            }
+        } , "c").start();
+    }
+}
+```
+
+
+
+
+
+<https://juejin.im/post/5cb4551ef265da03b858443d>
