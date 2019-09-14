@@ -1,0 +1,5 @@
+线程8大核心思维导图：http://naotu.baidu.com/file/07f437ff6bc3fa7939e171b00f133e17?token=6744a1c6ca6860a0 
+Java内存模型思维导图：http://naotu.baidu.com/file/60a0bdcaca7c6b92fcc5f796fe6f6bc9?token=bcdbae34bb3b0533 
+死锁——从产生到消除：http://naotu.baidu.com/file/ec7748c253f4fc9d88ac1cc1e47814f3?token=bb71b5895a747d67
+
+https://docs.qq.com/doc/DSVp5R1NubFpERVZ1

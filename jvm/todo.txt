@@ -4,8 +4,30 @@ JVM性能调优监控工具jps、jstack、jmap、jhat、jstat使用详解
 
 
 
-
-
 Linux命令之JVM性能监控
 
 <https://blog.csdn.net/yxd179/article/details/83307567>
+
+
+
+/**
+ * 类什么时候会进行初始化：
+ * (1)new
+ * (2)使用java命令，作为类入口
+ * (3)使用类变量（final修饰的除外），调用类方法
+ * (4)反射
+ * (5)初始化子类，父类会被初始化
+ */
+public class Test {
+    public static void main(String[] args) {
+        System.out.println(FinalStaticFieldClass.flag);
+    }
+}
+
+class FinalStaticFieldClass{
+    public static final int flag = 1;
+
+    static {
+        System.out.println("Test 初始化");
+    }
+}

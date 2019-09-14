@@ -20,3 +20,26 @@ static final int hash(Object key) {
 
 
 
+对于HashMap
+
+jdk1.7中
+
+- 数组元素是Entry<K, V>
+- 出现hash冲突时，新元素加在链表头，
+- resize()扩容操作，只在出现hash冲突时启用
+
+jdk8中
+
+- 每次put会判断size>threshold，如果大于，进行扩容
+- 新元素加在链表尾，大于8转化为红黑树
+
+并发操作时出现死循环的原因：
+
+
+
+
+
+
+
+
+
