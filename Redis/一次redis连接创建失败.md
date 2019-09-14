@@ -45,7 +45,7 @@
 
 
 
-![1564986137769](D:\a_nut_net_file\我的坚果云\focus\study-note\redis\image\tcp.png)
+![tcp.png](image/tcp.png)
 
 (1)连接 80端口
 
@@ -89,7 +89,7 @@ B机子的内网ip是172.31.55.15
 
 可能问题出现在jedis，jedis使用原生socket建立连接，可能不走系统的代理，因此目的主机172.31.55.15不存在，所以会返回socket超时
 
-![1564989489484](image\jedis_socket_connect.png)
+![1564989489484](image/jedis_socket_connect.png)
 
 
 
