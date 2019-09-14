@@ -248,7 +248,7 @@ jdk8中永久代被彻底移除，使用元数据区(直接内存，如果不指
 
 # 问题
 
-**使用jd监测工具时候出现**
+**使用jdk监测工具时候出现**
 
 ```java
 [root@lerong-tweb3 apache-tomcat-7.0.85]# jinfo -flags 11617 
@@ -279,11 +279,7 @@ Caused by: sun.jvm.hotspot.debugger.DebuggerException: Can't attach to the proce
 
 ```
 
-**解决办法**
-
-
-
-
+解决办法：<https://www.cnblogs.com/wscit/p/6803354.html>
 
 
 
