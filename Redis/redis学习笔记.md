@@ -46,6 +46,8 @@
      - Partition tolerance(分区容错性)
   2. CAP三个特性，三选二
 
+  > <http://www.ruanyifeng.com/blog/2018/07/cap.html>
+
 - NoSQL分类
 
   - key-value
@@ -112,13 +114,7 @@
 
 - sql遵循事务ACID，NoSQL遵循CAP定理
 
-  > 什么是CAP？
-  >
-  > Consistent一致性: 同样数据在分布式系统中所有地方都是被复制成相同。
-  >
-  > Available可用性: 所有在分布式系统活跃的节点都能够处理操作且能响应查询。
-  >
-  > Partition Tolerant分区容错性: 在两个复制系统之间，如果发生了计划之外的网络连接问题，对于这种情况，有一套容错性设计来保证。
+  
 
 
 

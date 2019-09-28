@@ -47,3 +47,23 @@ eg:发送端A向接收端B发了300字节，B 可能先收到 100 字节，再�
 四、参考
 
 [TCP 协议如何解决粘包、半包问题](https://mp.weixin.qq.com/s/wUOrfxrO9C7tvvkXEkeQoA)
+
+
+
+
+
+# 滑动窗口
+
+参数：
+
+RTT（round trip time）：发送一个数据包到收到对应ack所花费的时间
+
+RTO（Retransmission TimeOut）即重传超时时间
+
+
+
+作用：
+
+- 保证TCP的可靠性
+- 
+
