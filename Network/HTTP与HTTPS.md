@@ -4,6 +4,12 @@
 
   SSL/TLS建立在tcp和http之间（属于OSI七层模型中的会话层）
 
+  SSL/TLS建立在tcp之上
+
+  > SSL的全称是“Secure Socket Layer”，由网景公司发明，当发展到3.0时被标准化，改名为TLS， 即“Transport Layer Security”
+  >
+  > SSL使用了许多密码学最先进的研究成果，综合了对称加密、非对称加密、摘要算法、数字签名、数字证书 等技术，能够在不安全的环境中为通信的双方创建出一个秘密的、安全的传输通道，为HTTP套上一副坚固的盔甲。 
+
 - 流程：
 
   - 建立tcp连接
